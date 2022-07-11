@@ -163,6 +163,18 @@ nav a:hover::before {
 }
 
 /* List of cards */
+.about_me {
+  font-size: 18px;
+  margin: 45%;
+  margin-right: 6%;
+  margin-top: -45%;
+}
+
+#pic_of_me {
+  border-radius: 20px;
+  margin-right: 55%;
+}
+
 #first-card {
   margin-right: 48%;
 }
