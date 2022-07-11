@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  background: rgb(210, 189, 210);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(52, 37, 52);
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+  margin-right: 2%;
+  font-size: 22px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(171, 117, 117);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: rgb(171, 117, 117);
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#left_section {
+  background-color: pink;
+  flex: 30%;
+  font-size: 35px;
+  padding-left: -5%;
+  text-align: center;
+}
+
+#project_section {
+  background-color: rgb(209, 157, 165);
+  flex: 70%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+}
+
+#about_me {
+  display: flex;
+  height: 60vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#main_project {
+  height: 80vh;
+  width: 25vh;
+  text-align: left;
+  font-size: 20px;
+}
+
+#projects {
+  height: 55vh;
+  border-color: #000;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#project_section_1 {
+  height: 50%;
+  display: flex;
+}
+#project_section_2 {
+  height: 45%;
+  margin-top: 0px;
+  display: flex;
+}
+
+/* #project_1 {
+  background-color: 
+  flex: 33%;
+}
+
+#project_2 {
+  background-color: 
+  flex: 33%;
+}
+
+#project_3 {
+  background-color: 
+  flex: 33%;
+}
+
+#project_4,
+#project_5,
+#project_6 {
+  flex: 33%;
+  border: 1px solid black;
+  margin: 10px;
+} */
+.project_class {
+  flex: 33%;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+#project_title {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#footer {
+  width: 100%;
+  text-align: center;
+}
+
+/* List of cards */
+#first-card {
+  margin-right: 48%;
+}
+
+#title1 {
+  font-size: 34px;
+}
+
+.card_1_info {
+  color: #000;
+  margin-bottom: 20%;
+  margin-top: -53%;
+  margin-left: 62%;
+  font-size: 17.5px;
+}
