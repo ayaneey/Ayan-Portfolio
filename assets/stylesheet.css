@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: rgb(210, 189, 210);
+  background: rgb(209, 157, 165);
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
 }
@@ -78,7 +78,7 @@ nav a:hover::before {
 }
 
 #left_section {
-  background-color: pink;
+  background-color: rgb(209, 157, 165);
   flex: 30%;
   font-size: 35px;
   padding-left: -5%;
@@ -95,7 +95,7 @@ nav a:hover::before {
 
 #about_me {
   display: flex;
-  height: 60vh;
+  height: 85vh;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -164,7 +164,7 @@ nav a:hover::before {
 
 /* List of cards */
 .about_me {
-  font-size: 18px;
+  font-size: 20px;
   margin: 45%;
   margin-right: 6%;
   margin-top: -45%;
@@ -173,6 +173,20 @@ nav a:hover::before {
 #pic_of_me {
   border-radius: 20px;
   margin-right: 55%;
+}
+
+.interests {
+  margin-top: -27%;
+}
+
+#interests-title {
+  font-size: 34px;
+}
+
+#lists {
+  list-style: none;
+  margin-bottom: -45%;
+  font-size: 20px;
 }
 
 #first-card {
@@ -186,7 +200,13 @@ nav a:hover::before {
 .card_1_info {
   color: #000;
   margin-bottom: 20%;
-  margin-top: -53%;
-  margin-left: 62%;
+  margin-top: -52%;
+  margin-left: 73%;
   font-size: 17.5px;
+}
+
+#upcoming_projects {
+  margin-top: 0%;
+  margin-bottom: 3%;
+  font-size: 34px;
 }
