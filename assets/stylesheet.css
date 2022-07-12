@@ -88,9 +88,6 @@ nav a:hover::before {
 #project_section {
   background-color: rgb(209, 157, 165);
   flex: 70%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #000;
 }
 
 #about_me {
@@ -108,9 +105,6 @@ nav a:hover::before {
 
 #projects {
   height: 55vh;
-  border-color: #000;
-  border-style: solid;
-  border-width: 2px;
 }
 
 #project_section_1 {
@@ -165,45 +159,85 @@ nav a:hover::before {
 /* List of cards */
 .about_me {
   font-size: 20px;
-  margin: 45%;
+  margin: 5%;
   margin-right: 6%;
-  margin-top: -45%;
+  margin-top: 4%;
 }
 
 #pic_of_me {
   border-radius: 20px;
-  margin-right: 55%;
+  margin-right: 5%;
 }
 
-.interests {
-  margin-top: -27%;
+/* .interests {
+  margin-top: -10%;
 }
 
 #interests-title {
   font-size: 34px;
+} */
+
+.interests1 {
+  font-size: 20px;
+  list-style: none;
+  margin: -2%;
+  margin-right: 5%;
 }
 
-#lists {
+/* #lists {
   list-style: none;
   margin-bottom: -45%;
   font-size: 20px;
+} */
+
+.hori1 {
+  border-top: 6px solid rgb(93, 83, 24);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 101%;
+}
+
+.vl {
+  border-left: 6px solid rgb(93, 83, 24);
+  height: 786.5px;
+  position: absolute;
+  right: 70%;
+  margin-left: -3px;
+  top: 16%;
 }
 
 #first-card {
   margin-right: 48%;
+  margin-top: 87%;
 }
 
 #title1 {
   font-size: 34px;
+  margin-left: -170%;
+  font-size: 40px;
+}
+
+.p1 {
+  margin-left: -260%;
 }
 
 .card_1_info {
   color: #000;
   margin-bottom: 20%;
-  margin-top: -56%;
+  margin-top: -58%;
   margin-left: 73%;
-  font-size: 17.5px;
+  font-size: 17px;
 }
+
+/* .vl2 {
+  border-left: 6px solid rgb(93, 83, 24);
+  height: 786.5px;
+  position: absolute;
+  left: 80%;
+  margin-left: -3px;
+  top: 16%;
+} */
 
 #upcoming_projects {
   margin-top: 0%;
