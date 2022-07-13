@@ -109,12 +109,15 @@ nav a:hover::before {
 
 #project_section_1 {
   height: 85%;
+  margin-top: 0%;
   display: flex;
+  margin-left: 1%;
 }
 #project_section_2 {
   height: 85%;
   margin-top: 0px;
   display: flex;
+  margin-left: 1%;
 }
 
 /* #project_1 {
