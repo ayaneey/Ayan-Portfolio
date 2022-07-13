@@ -10,6 +10,7 @@ body {
   margin: 0 auto;
 }
 
+/* header tag - contains modifications to navigation bar including transitions */
 header {
   background: rgb(52, 37, 52);
   border-color: black;
@@ -77,6 +78,8 @@ nav a:hover::before {
   width: 100%;
 }
 
+
+/* About me container: In this section you will find some information about me and my interests */
 #left_section {
   background-color: rgb(209, 157, 165);
   flex: 30%;
@@ -85,15 +88,36 @@ nav a:hover::before {
   text-align: center;
 }
 
-#project_section {
-  background-color: rgb(209, 157, 165);
-  flex: 70%;
-}
-
 #about_me {
   display: flex;
   height: 85vh;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#pic_of_me {
+  border-radius: 20px;
+  margin-right: 5%;
+}
+
+.about_me {
+  font-size: 18px;
+  margin: 5%;
+  margin-right: 6%;
+  margin-top: 4%;
+}
+
+.interests1 {
+  font-size: 20px;
+  list-style: none;
+  margin: -2%;
+  margin-right: 5%;
+}
+
+
+/* Marketing Agency (main project) container. In this section, you will notice some text summarizing targets met for the project and an accompanying image containing a screenshot of the webpage */
+#project_section {
+  background-color: rgb(209, 157, 165);
+  flex: 70%;
 }
 
 #main_project {
@@ -103,8 +127,41 @@ nav a:hover::before {
   font-size: 20px;
 }
 
+#first-card {
+  margin-left: 12%;
+  margin-top: 30%;
+  margin-top: 42%;
+}
+
+#title1 {
+  font-size: 34px;
+  margin-left: -155%;
+  margin-bottom: 10%;
+  margin-top: 37%;
+  font-size: 40px;
+}
+
+.p1 {
+  margin-left: 0%;
+}
+
+.card_1_info {i
+  color: #000;
+  margin-top: -61%;
+  margin-left: 73%;
+  font-size: 18px;
+}
+
+/* Upcoming Projects: In this section you will find pending projects. Each project will be accompanied with a placeholder image */
+
 #projects {
   height: 55vh;
+}
+
+#upcoming_projects {
+  margin-top: 0%;
+  margin-bottom: 3%;
+  font-size: 34px;
 }
 
 #project_section_1 {
@@ -113,13 +170,13 @@ nav a:hover::before {
   display: flex;
   margin-left: 1%;
 }
+
 #project_section_2 {
   height: 85%;
   margin-top: 0px;
   display: flex;
   margin-left: 1%;
 }
-
 /* #project_1 {
   background-color: 
   flex: 33%;
@@ -142,6 +199,7 @@ nav a:hover::before {
   border: 1px solid black;
   margin: 10px;
 } */
+
 .project_class {
   flex: 33%;
   border: 1px solid black;
@@ -154,52 +212,37 @@ nav a:hover::before {
   font-size: 20px;
 }
 
-#footer {
-  width: 100%;
+
+
+/* Footer: In this section, you will see some contact information as provided */
+#contact {
+  width: 40%;
   margin-top: 67%;
+  text-align: center;
+  margin-left: 45%;
   /* margin-left: 60%; */
 }
 
-/* List of cards */
-.about_me {
-  font-size: 20px;
-  margin: 5%;
-  margin-right: 6%;
-  margin-top: 4%;
+.phone {
+  width: 30px;
+  height: 45px;
 }
 
-#pic_of_me {
-  border-radius: 20px;
-  margin-right: 5%;
+.linkedin {
+  width: 30px;
+  height: 45px;
 }
 
-/* .interests {
-  margin-top: -10%;
-}
 
-#interests-title {
-  font-size: 34px;
-} */
 
-.interests1 {
-  font-size: 20px;
-  list-style: none;
-  margin: -2%;
-  margin-right: 5%;
-}
-
-/* #lists {
-  list-style: none;
-  margin-bottom: -45%;
-  font-size: 20px;
-} */
+/* Additional CSS: I used some horizontal and vertical lines for styling purposes for my webpage */
 
 .hori1 {
   border-top: 6px solid rgb(159, 120, 67);
   border-bottom: none;
   border-left: none;
   border-right: none;
-  width: 101%;
+  width: 98.5%;
 }
 
 .vl {
@@ -221,41 +264,8 @@ nav a:hover::before {
   width: 320%;
 }
 
-#first-card {
-  margin-left: 12%;
-  margin-top: 30%;
-}
 
-#title1 {
-  font-size: 34px;
-  margin-left: -155%;
-  margin-bottom: 10%;
-  margin-top: 37%;
-  font-size: 40px;
-}
 
-.p1 {
-  margin-left: 0%;
-}
 
-.card_1_info {i
-  color: #000;
-  margin-top: -61%;
-  margin-left: 73%;
-  font-size: 17px;
-}
 
-/* .vl2 {
-  border-left: 6px solid rgb(93, 83, 24);
-  height: 786.5px;
-  position: absolute;
-  left: 80%;
-  margin-left: -3px;
-  top: 16%;
-} */
 
-#upcoming_projects {
-  margin-top: 0%;
-  margin-bottom: 3%;
-  font-size: 34px;
-}
