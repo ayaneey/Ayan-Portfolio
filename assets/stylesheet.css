@@ -250,6 +250,30 @@ nav a:hover::before {
   margin: 3%;
 }
 
+/* Project card titles - sizing adjustments */
+#proj1{
+  margin-left: 40%;
+}
+
+#proj2{
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+#proj3{
+  margin-left: 40%;
+  margin-top: 17%;
+}
+
+#proj4{
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+#proj5{
+  margin-left: 40%;
+  margin-top: 10%;
+}
 
 #project_title {
   width: 100%;
@@ -319,6 +343,157 @@ nav a:hover::before {
 
 
 
+
+
+
+
+/* MEDIA QUERIES */
+  
+  /* iPad in portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {body {
+  flex-direction: column;
+}
+header {
+  background: rgb(52, 37, 52);
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: 1220px;
+} 
+#first-card {
+  margin-left: 25%;
+  margin-top: 70%;
+}
+.card_1_info {i
+  color: #000;
+  margin-top: -87%;
+  margin-left: 73%;
+  font-size: 18px;
+}
+.hori1 {
+  border-top: 6px solid rgb(159, 120, 67);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 96.5%;
+}
+#project_section_1 {
+  height: 84%;
+  margin-top: 0%;
+  display: flex;
+  margin-left: 1%;
+}
+#project_section_2 {
+  height: 76%;
+  width: 20px;
+  margin-top: 1%;
+  display: flex;
+  margin-left: 20%;
+}
+#contact {
+  width: 73%;
+  margin-top: 122%;
+  text-align: center;
+  margin-left: 67%;
+  /* margin-left: 60%; */
+}
+.vl {
+  border-left: 6px solid rgb(93, 83, 24);
+  height: 1833.5px;
+  position: absolute;
+  right: 71%;
+  margin-left: -3px;
+  top: 15.5%;
+}
+
+}
+ 
+
+
+
+
+/* iPhone 13 and iPhone 13 Pro in portrait */
+/* 2532x1170 pixels at 460ppi */
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (orientation : portrait)
+    and (-webkit-device-pixel-ratio: 3) {body {
+      flex-direction: column;
+    }
+    header {
+      background: rgb(52, 37, 52);
+      border-color: black;
+      border-width: 1px;
+      border-style: solid;
+      width: 1203px;
+  }
+  .card_1_info {
+    i: ;
+    color: #000;
+    margin-top: -63%;
+    margin-left: 73%;
+    font-size: 18px;
+}
+#first-card {
+  margin-left: 75%;
+  margin-top: 30%;
+  margin-top: 156%;
+}
+#main_project {
+  height: 69vh;
+  width: 25vw;
+  text-align: left;
+  font-size: 20px;
+}
+.vl {
+  border-left: 6px solid rgb(93, 83, 24);
+  height: 2494.5px;
+  position: absolute;
+  right: 39%;
+  margin-left: -3px;
+  top: 19%;
+}
+.hori1 {
+  border-top: 6px solid rgb(159, 120, 67);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 93.5%;
+}
+#contact {
+  width: 40%;
+  margin-top: 389%;
+  text-align: center;
+  margin-left: 143%;
+  /* margin-left: 60%; */
+}
+.linkedin {
+  width: 30px;
+  height: 40px;
+  margin-right: 90%;
+  margin-bottom: -108%;
+}
+.phone {
+  width: 20px;
+  height: 30px;
+  margin-right: 113%;
+  margin-bottom: -69%;
+}
+.number {
+  margin-left: 20px;
+}
+#project_section_1 {
+  height: 125%;
+  margin-top: 0%;
+  display: flex;
+  margin-left: 3.5%;
+}
+
+     }
 
 
 
