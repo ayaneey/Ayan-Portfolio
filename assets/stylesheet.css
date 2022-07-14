@@ -396,7 +396,7 @@ nav a:hover::before {
   }
 }
 
-/* iPhone 13 and iPhone 13 Pro in portrait */
+/* iPhone 12 and iPhone 12 Pro in portrait */
 /* 2532x1170 pixels at 460ppi */
 @media only screen and (device-width: 390px) and (device-height: 844px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
   body {
