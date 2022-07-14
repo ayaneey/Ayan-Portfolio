@@ -25,4 +25,4 @@ In this project, I have created a portfolio that consists of my previous project
 ### Github repository
 <b>Github username:</b> ayaneey/Ayan-Portfolio
 <br>
-<b>Github URL:</b> https://github.com/ayaneey/Ayan-Portfolio
+<b>Github URL:</b> [https://github.com/ayaneey/Ayan-Portfolio](https://github.com/ayaneey/Ayan-Portfolio/tree/main)
