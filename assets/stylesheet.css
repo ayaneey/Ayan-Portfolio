@@ -165,15 +165,15 @@ nav a:hover::before {
 }
 
 #project_section_1 {
-  height: 85%;
+  height: 120%;
   margin-top: 0%;
   display: flex;
   margin-left: 1%;
 }
 
 #project_section_2 {
-  height: 85%;
-  margin-top: 0px;
+  height: 120%;
+  margin-top: 1%;
   display: flex;
   margin-left: 1%;
 }
@@ -202,7 +202,7 @@ nav a:hover::before {
 
 .project_class {
   flex: 33%;
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 10px;
 }
 
@@ -217,7 +217,7 @@ nav a:hover::before {
 /* Footer: In this section, you will see some contact information as provided */
 #contact {
   width: 40%;
-  margin-top: 67%;
+  margin-top: 120%;
   text-align: center;
   margin-left: 45%;
   /* margin-left: 60%; */
@@ -249,7 +249,7 @@ nav a:hover::before {
   border-left: 6px solid rgb(93, 83, 24);
   height: 1600px;
   position: absolute;
-  right: 70%;
+  right: 71%;
   margin-left: -3px;
   top: 16%;
 }
